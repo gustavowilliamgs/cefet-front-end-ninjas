@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+h1,
+h2 {
+    font-family: "Open Sans", sans-serif;
+}
+
+img#logomarca {
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+
+img,
+iframe {
+    display: block;
+    margin: auto;
+}
+
+a:link {
+    text-decoration: none;
+    color: seagreen;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: brown;
+}
+
+a:active {
+    color: blueviolet;
+}
+
+a:visited {
+    color: darkblue;
+}
+
+.externo {
+    background-image: url("img/globo.png");
+    background-repeat: no-repeat;
+    padding-left: 22px;
+}
